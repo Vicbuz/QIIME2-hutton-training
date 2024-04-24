@@ -23,13 +23,13 @@ You should ensure your jobs only write to scratch space while running. So naviga
 ```
 cd $SCRATCH
 ```
-Now we will make a new directory (folder) for us to place everything in by using the mkdir command and navigate inside the new directory with cd (change directory):
+Now we will make a new directory (folder) for us to place everything in by using the `mkdir` command and navigate inside the new directory with `cd` (change directory):
 
 ```
 mkdir qiime2-training
 cd qiime2-training
 ```
-Then we need to download a file from the internet that tells our installer what is needed to install QIIME2. You can download this by using a command called wget:
+Then we need to download a file from the internet that tells our installer what is needed to install QIIME2. You can download this by using a command called `wget`:
 
 ```
 wget https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.2-py38-linux-conda.yml
