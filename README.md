@@ -1,12 +1,19 @@
-## QIIME2 instructions
+# Welcome to the QIIME2 James Hutton Institute Training day
 
-# Installing QIIME2
+The following instructions are what you need to do **before** the training day. You will need to:  
 
-Before attending the one day QIIME2 course you will need two things. First, you will need an account on the High Performace Cluster computer at the James Hutton Institue, called  and Gruffalo or the Crop Diversity Cluster. Secondly, you will need to install QIIME2 in it's own environment. 
+1. Have access to the HPC
+2. Install QIIME2
 
-You can request an account by going here https://help.cropdiversity.ac.uk/user-accounts.html
+## Installing QIIME2
 
-To install QIIME2 you need to login to the HPC and open an interactive node to work on by entering the following into your terminal:
+First, you will need an account on the High Performace Cluster computer at the James Hutton Institue, called  and Gruffalo or the Crop Diversity Cluster. 
+
+You can request an account by going here https://help.cropdiversity.ac.uk/user-accounts.html  
+
+Secondly, you will need to install QIIME2 in it's own environment. 
+
+To install QIIME2 you need to login to the HPC using your username and password and open an interactive node to work on by entering the following into your terminal:
 ```
 srun --partition=short --cpus-per-task=2 --mem=2G --pty bash 
 ```
