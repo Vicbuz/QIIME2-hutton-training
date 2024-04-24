@@ -15,7 +15,7 @@ You can request an account by going here https://help.cropdiversity.ac.uk/user-a
 
 Now you are logged in with an account we can install QIIME2 for you to use it on the training day. 
 
-To install QIIME2 you need to login to the HPC using your username and password and open an interactive node. This is important, do not work on the head node (gruffalo). Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
+To install QIIME2 you need to login to the HPC using your username and password and open an interactive node. **This is important, do not work on the head node (gruffalo)**. Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
 ```
 srun --partition=short --cpus-per-task=2 --mem=2G --pty bash 
 ```
