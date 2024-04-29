@@ -15,7 +15,19 @@ You can request an account by going here https://help.cropdiversity.ac.uk/user-a
 
 Now you are logged in with an account we can install QIIME2 for you to use it on the training day. 
 
-To install QIIME2 you need to login to the HPC using your username and password and open an interactive node. ***This is important, do not work on the head node (gruffalo)***. Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
+Initially, if you don't already have bioconda set up (i.e. you have a new HPC account and have never installed conda previously) you wiil need to install the package manager conda that will facilitate you installing QIIME2. Login to the HPC using your username and password. Then while logged onto the HPC cluster head node, called gruffalo where your prompt would look something like this `[jsmith@gruffalo ~]$` type the following instruction:
+
+```
+install-bioconda
+```
+To check this has worked type:
+
+```
+conda --version
+```
+This should report the version of conda you have. 
+
+The next step is to install QIIME2 using conda. To do this you need open an interactive node. ***This is important, do not work on the head node (gruffalo)***. Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
 ```
 srun --partition=short --cpus-per-task=2 --mem=2G --pty bash 
 ```
@@ -23,10 +35,13 @@ You should ensure your jobs only write to scratch space while running. So naviga
 ```
 cd $SCRATCH
 ```
-Now we will make a new directory (folder) for us to place everything in by using the `mkdir` command and navigate inside the new directory with `cd` (change directory):
+Now we will make a new directory (folder) for us to place everything in by using the `mkdir` command :
 
 ```
 mkdir qiime2-training
+```
+Now navigate inside the new directory with `cd` (change directory):
+```
 cd qiime2-training
 ```
 Then we need to download a file from the internet that tells our installer what is needed to install QIIME2. You can download this by using a command called `wget`:
