@@ -11,6 +11,8 @@ First, you will need an account on the High Performace Cluster computer at the J
 
 You can request an account by going here https://help.cropdiversity.ac.uk/user-accounts.html  
 
+The crop diversity HPC help documents are a very useful resource so please make sure if you have having issues to check out the website : https://help.cropdiversity.ac.uk/ 
+
 ## Installing QIIME2
 
 Now you are logged in with an account we can install QIIME2 for you to use it on the training day. 
