@@ -7,11 +7,13 @@ The following instructions are what you need to do **before** the training day. 
 
 ## Get a HPC account
 
-First, you will need an account on the High Performace Cluster computer at the James Hutton Institue, called Gruffalo or the Crop Diversity Cluster. You may already have an account, if so please skip to the next step of installing QIIME2.
+First, you will need an account on the High Performace Cluster computer at the James Hutton Institue, called Gruffalo or the Crop Diversity Cluster. You may already have an account, if so please skip to the next step of installing QIIME2. The crop diversity HPC help documents are a very useful resource so please make sure if you check out the website : https://help.cropdiversity.ac.uk/ 
 
 You can request an account by going here https://help.cropdiversity.ac.uk/user-accounts.html  
 
-The crop diversity HPC help documents are a very useful resource so please make sure if you have having issues to check out the website : https://help.cropdiversity.ac.uk/ 
+There are several ways to connect to the HPC, see the HPC help website section called Getting Connected https://help.cropdiversity.ac.uk/ssh.html
+
+
 
 ## Installing QIIME2
 
