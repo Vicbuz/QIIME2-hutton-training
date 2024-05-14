@@ -11,7 +11,7 @@ First, you will need an account on the High Performace Cluster computer at the J
 
 You can request an account by going here https://help.cropdiversity.ac.uk/user-accounts.html  
 
-There are several ways to connect to the HPC, see the HPC help website section called Getting Connected https://help.cropdiversity.ac.uk/ssh.html
+There are several ways to connect to the HPC, I recommend you use MobaXterm which you can download from the Software Center, for help see the HPC help website section called Getting Connected https://help.cropdiversity.ac.uk/ssh.html
 
 
 
