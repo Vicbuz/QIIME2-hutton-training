@@ -29,7 +29,7 @@ To check this has worked type:
 ```
 conda --version
 ```
-This should report the version of conda you have. 
+This should report the version of conda you have. You may need to log out and back in again to get this to work, additionally this can take a while so be patient. 
 
 The next step is to install QIIME2 using conda. To do this you need open an interactive node. ***This is important, do not work on the head node (gruffalo)***. Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
 ```
