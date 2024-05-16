@@ -33,7 +33,7 @@ This should report the version of conda you have. You may need to log out and ba
 
 The next step is to install QIIME2 using conda. To do this you need open an interactive node. ***This is important, do not work on the head node (gruffalo)***. Gruffalo is not for work, it is for managing and monitoring job submissions and does not have the resources to perform the task we will be doing. To get an interactive job node to work on, entering the following into your terminal:
 ```
-srun --partition=debug --cpus-per-task=2 --mem=2G --pty bash 
+srun --partition=short --cpus-per-task=2 --mem=3G --pty bash 
 ```
 You should ensure your jobs only write to scratch space while running. So navigate to your scratch area using:
 ```
