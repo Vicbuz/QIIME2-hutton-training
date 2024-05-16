@@ -70,43 +70,5 @@ qiime --help
 ```
 If no errors are reported when running this command, the installation was successful!
 
-## Importing your data to Qiime2
-
-We have an area that has been set asside for us to work in today (Thanks Iain!).
-
-To open an interactive terminal use the following command:
-
-```
-srun --partition=debug --cpus-per-task=2 --mem=2G --pty bash 
-```
-The first thing we need to do is import your data into qiime2. The data we are going to practice with is some 16s data located in the directory `/mnt/shared/training/qiime2` head to the directory you made when you installed qiime2: 
-
-```
-cd $SCRATCH
-```
-```
-cd qiime2-training
-```
-Now activate the qiime2 environment that you created when you installed qiime2:
-
-```
-conda activate qiime2-amplicon-2023.9
-```
-Finally it's now time to get using qiime2! The import command will will look like this:
-```
-qiime tools import \
---type 'SampleData[PairedEndSequencesWithQuality]' \
---input-path my_first_manifest.tsv \
---input-format PairedEndFastqManifestPhred33V2 \
---output-path test_16s_paired_end.qza 
-```
-Once imported, we want to have a look at our raw data so we make a visualisation in qiime2, like so:
-
-```
-qiime demux summarize \
---i-data test_16s_paired_end.qza \
---o-visualization test_16s_paired_end_viz.qzv
-```
-## Filtering our data
 
 
