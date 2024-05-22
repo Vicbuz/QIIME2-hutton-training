@@ -70,5 +70,13 @@ qiime --help
 ```
 If no errors are reported when running this command, the installation was successful!
 
+To close your conda environment type:
+```
+conda deactivate
+```
+then to exit your interactive node type:
+```
+exit
+```
 
 
