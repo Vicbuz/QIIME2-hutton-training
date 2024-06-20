@@ -153,7 +153,7 @@ qiime metadata tabulate \
 --m-input-file test_16s_taxonomy_results.qza \
 --o-visualization test_16s_rep_seq_taxa_results_combind.qzv
 ```
-If you would like to combine your taxonomy and feature table you need to drag the `test_16s_rep_seq_taxa_results_combind.qzv` file up to Qiime2 view and then download it as a tab separated values file (TSV file). Then take the `test_16s_rep_seq_taxa_results_combind.tsv` and the `feature-table.tsv` and use then in this custom python code which is called `merge_feature_taxon_tables.py`. You will need to upload the python code to your working directory and inside that same directory must be your feature table and the rep-seq table. the syntax to use the python code is `python <python file> <feature table file> <taxonomy file> <what you'd like to name your outfile>` like so:
+If you would like to combine your taxonomy and feature table you need to drag the `test_16s_rep_seq_taxa_results_combind.qzv` file up to Qiime2 view and then download it as a tab separated values file (TSV file). Then take the `test_16s_rep_seq_taxa_results_combind.tsv` and the `feature-table.tsv` and use then in this custom python code which is called `merge_feature_taxon_tables.py`. You will need to upload the python code to your working directory and inside that same directory must be your feature-table and the rep-seq-taxa table. the syntax to use the python code is `python <python file> <feature table file> <taxonomy file> <what you'd like to name your outfile>` like so:
 	
 ```bash
 python merge_feature_taxon_tables.py feature-table.tsv rep-seq-taxo.tsv my_merged_results.tsv
