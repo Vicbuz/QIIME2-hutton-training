@@ -2,7 +2,7 @@
 """
 Created on Thu Jun 20 09:01:39 2024
 
-@author: VB44166
+@author: Vic Buswell
 
 script to merge taxon 
 """
@@ -10,9 +10,9 @@ script to merge taxon
 """
 Created on Wed Oct 18 08:50:21 2023
 
-@author: VB44166
+@author: Victoria Buswell
 
-Reformats the outputs I pulled from Qiime2 and formats in the way Andy needs.
+Reformats the outputs I pulled from Qiime2 and formats to combine taxon and sequences with the OTU out table.
 """
 
 import pandas as pd
