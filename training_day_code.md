@@ -22,7 +22,7 @@ cd qiime2-training
 Now activate the qiime2 environment that you created when you installed qiime2:
 
 ```
-conda activate qiime2-amplicon-2023.9
+conda activate qiime2-amplicon-2025.7
 ```
 Finally, it's now time to get using qiime2! The import command will look like this: 
 
@@ -108,7 +108,7 @@ srun --partition=debug --cpus-per-task=2 --mem=8G --pty bash
 ```
 reactivate conda:
 ```
-conda activate qiime2-amplicon-2023.9
+conda activate qiime2-amplicon-2025.7
 ```
 Now we should have enough memory for the machine learning classifier to work. The code below will allow you to assign taxonomy to our now cluster representative sequences.
 ```
